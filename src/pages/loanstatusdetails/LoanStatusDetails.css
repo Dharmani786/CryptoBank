@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.section-1{
+    margin-top: 130px;
+}
+.container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.loan {
+  display: flex;
+  /* align-items: center; */
+  gap: 25px;
+}
+.amount {
+  border-right: 1px SOLID #F1F2F6;
+  padding-right: 15px;
+}
+.amount p {
+  color: #708090;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.amount h4 {
+  color: #2B2B2B;
+  font-size: 16px;
+  font-weight: 500;
+}
+.home-loan h1 {
+  font-weight: 700;
+  size: 32px ;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.home-loan {
+  box-shadow: 0px 8px 16px -6px #18274B14;
+  padding: 20px;
+  border-radius: 10px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    margin:40px 0px;
+}
+.Disbursed-sec{
+    width: 570px;
+    height: 264px;
+    padding: 20px;
+  box-shadow: 0px 8px 16px -6px #18274B14;
+}
+.flex-sec-2{
+    display: flex;
+    padding: 5px;
+}
+.flex-sec-2 p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px 0px 20px
+}
+.MoneybagImg{
+    background-color: #1E90FF;
+    padding: 10px;
+    border-radius: 29px;
+}
+.text-flex-idf{
+  margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.range-progressbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.payNow-btn{
+    background-color: #F9FAFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+.Date-Status{
+    color: black;
+    font-size: 16px;
+}
+.payNow-btn button{
+    color: #1E90FF;
+    background-color:#F9FAFF ;
+    font-size: 16px;
+}

@@ -1,0 +1,157 @@
+
+/* Footer css starts here */
+.foo_ter {
+  padding-top: 40px;
+}
+.lo_rem{
+  color: #708090;
+  width: 80%;
+}
+.about {
+  cursor: pointer;
+  font-weight: 500;
+  color: #858383;
+  font-size: 15px;
+}
+.ftr_container {
+    /* background-color: whitesmoke; */
+    padding-bottom: 30px;
+    
+  }
+  .ftr_wrp {
+    /* width: 90%; */
+    /* color: whitesmoke; */
+  }
+  .ftr_fig {
+    height: 66px;
+    width: 66px;
+  }
+  .ftr_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .ftr_con {
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+    color:#2B2B2B;
+    margin-top: 10px;
+  }
+  .ftr_con-li {
+    margin-top: 20px;
+    line-height: 25px;
+  }
+  .ftr_li {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    color:#2B2B2B;
+  }
+  .ftr_li li {
+    margin-bottom: 15px;
+    list-style: none;
+    width: max-content;
+  }
+  .li_main {
+    color:black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .ftr_socials {
+    display: flex;
+    gap: 23px;
+    color: black;
+  }
+ 
+  .round-social {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #1E90FF;
+    color: white;
+}
+.icon{
+  display: block;
+  float: right;
+}
+
+
+  /* .Footer {
+    margin-top: "auto";
+    background-color: '#333';
+    color: "#fff";
+    padding: "20px";
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main {
+    flex-grow: 1;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+   */
+
+   .socialIcons{
+    background-color: #1e90ff !important;
+  }
+  .socialIcons:hover{
+  background-color: #1e90ff !important;
+  }
+  .warning-modal  h3 {
+    font-size: 19px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+    .btn-div {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      margin: auto;}
+
+      button.yes {
+        width: 45%;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+        background: #1E90FF;
+        color: white;
+        outline: none;
+      }
+      button.no {
+        width: 45%;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+        color: #1E90FF;
+        background: white;
+        outline: none;
+        border: 1px solid #1E90FF;
+      }
+    
+      .ftr_li li:hover {
+        color: #1E90FF;
+    }

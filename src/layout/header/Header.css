@@ -1,0 +1,116 @@
+
+
+  .header {
+    position:fixed;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 9999;
+box-shadow: 0px 6px 14px -6px #18274B1F;
+    top: 0;
+  }
+  .mn_hdr{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 240px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .loan-selector {
+    margin: 0 10px 0px 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .loan-selector-symbol {
+    font-size: 20px;
+  }
+  
+  .emi-selector {
+    margin-left :20px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  
+  .login-register {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button{
+    background-color: white;
+    border: white;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+  .login-button:hover{
+    color: #1E90FF;
+  }
+  .login-button a{
+    text-decoration: none;
+    color: black;
+  }
+  .register-button {
+    margin:0px 60px 0px 34px;
+    padding: 12px 25px;
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .register-button a{
+    text-decoration: none;
+    color: white;
+  }
+  .header a{
+    text-decoration: none;
+  }
+  .arrow-icn{
+    margin-left:10px;
+  }
+  .prof-icn{
+    margin-right: 26px;
+  }
+
+  .menuitem{
+    display: flex;
+      align-items: center;
+  }
+  .menuitem figure{
+    width: 30px;
+    height: 30px;
+  }
+  .text h3{
+    font-size: 19px;
+    color: #1E90FF;
+    line-height: 22px;
+    padding-bottom: 5px;
+  }
+  
+  .text p{
+    font-size: 15px;
+    color: #708090;
+  }
+  .diolg {
+    bottom: 300px !important;
+    right: -700px !important;
+  }

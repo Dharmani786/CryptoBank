@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+}
+.loan-wrp2{
+    padding-top: 130px;
+}
+.loan-wrp{
+   padding: 20px;
+   
+}
+.dropdown {
+    padding: 0px 0px 0px 2px;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 27%;
+    outline: none !important;
+    border: 1px solid #adb3d2 !important;
+    background: #F9FAFF !important;
+    border-radius: 7px;
+    color: #000 !important;
+}
+.col-border{
+    padding: 5px 10px;
+}
+.dropdown-select{
+    width: 210px;
+    height: 44px;
+    background: #F9FAFF;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    border-radius: 7px;
+
+}
+.cmn-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.common-srch{
+    display: flex;
+    /* gap :20px; */
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .cmn-btn button {
+    font-size: 10px;
+    padding: 12px 50px;
+    background: #F9FAFF;
+    border-radius: 7px;
+    border: 1px solid #adb3d2;
+    color: #000;
+    font-size: 12px;
+}
+  
+  .cmn-btn button:hover,
+  .cmn-btn button:focus {
+    color: #fff;
+    background-color: #1E90FF;
+    border: 1px solid transparent;
+  }
+
+.selettt >div {
+    cursor: pointer !important;
+    background: #F9FAFF !important; 
+    border: 1px solid transparent !important;
+    padding: 0;
+    z-index: 41;
+    color: #000 !important;
+    border-radius: 7px;
+    
+}
+
+ .addbtn:hover {
+    background: #1E90FF !important;
+    color: white !important;
+}
+.addbtn{
+        background-color:  #ECECFD !important;
+        color:#1E90FF !important;
+        width: 50% !important;
+        
+}
+
+#react-select-3-placeholder{
+    color: #000 !important;
+}
+
+.datepick,.datepick.datepick.rs-picker.rs-picker-daterange.rs-picker-default.rs-picker-toggle-wrapper.rs-picker-cleanable>div {
+    background-color:  #F9FAFF !important;
+    border-color: white !important;
+    cursor: pointer;
+    border: 1px solid #adb3d2 !important;
+    border-radius: 7px;
+    
+}
+
+.datepick,.datepick.datepick.rs-picker.rs-picker-daterange.rs-picker-default.rs-picker-toggle-wrapper.rs-picker-cleanable>div:hover {
+   outline: none !important;
+   border-color: white !important;
+   cursor: pointer;
+    
+}

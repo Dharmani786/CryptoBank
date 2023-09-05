@@ -1,0 +1,529 @@
+/* .card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+.register-here {
+  font-size: 20px;
+  font-weight: 500;
+  margin:10px 0px 20px;
+  color: black;
+  line-height: 29px;
+}
+.mobile-number-text {
+  margin-bottom: 15px;
+  font-size: 14px ;
+  font-weight: 400;
+  line-height: 18px;
+}
+.mobile-number-input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.react-tel-input .form-control{
+  /* padding: 10px !important; */
+   border: 1px solid #CACACA !important;
+  width: 100% !important;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.password-input {
+  margin-bottom: 15px;
+}
+
+.rem-for{
+  display: flex;
+  justify-content:space-between;
+  color: #888;
+  font-size: small;
+  margin-bottom: 25px;
+}
+.forgot-password a {
+ color: #888;
+  text-decoration: none !important;
+}
+.log-but {
+  width: 100%;
+  padding: 20px;
+  background-color: #1E90FF;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0px 32px 0px;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resend{
+  color: #888;
+  background: none;
+  font-weight: bold;
+  width: 100%;
+}
+
+button.resend:hover {
+    color: #1E90FF;
+    background: none;
+}
+/* .log-but:hover {
+  background-color: #0056B3;
+} */
+.log-but a{
+  text-decoration: none !important;
+  color: white;
+}
+.new-user-text {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #708090;
+}
+.new-user-text a {
+  color: #1E90FF;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*
+.new-user-text a:hover {
+  text-decoration: underline;
+} */
+.existing-user-text{
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #708090;
+}
+.existing-user-text a{
+  color: #007BFF;
+  text-decoration: none !important;
+}
+.Reg-but{
+  margin-top: 40px;
+}
+.forgot-password-section h1{
+  text-align: center;
+  margin-bottom: 30px ;
+  font-size: 30px !important;
+  font-weight: 500;
+  color: black;
+}
+.forgot-password-section p{
+  margin-bottom: 20px;
+}
+.forgot-next{
+  margin-top: 60px;
+}
+.forgot-next a{
+  text-decoration: none;
+  color: white;
+}
+.back-to-login-text{
+  text-align: center;
+}
+.back-to-login-text a{
+  color: #007BFF;
+  text-decoration: none;
+}
+.Change-password-box h2{
+  text-align: center;
+  margin-bottom: 70px;
+  color: black;
+  font-weight: 500;
+}
+.password-guide{
+  margin-left: 18px;
+}
+.strong-pswrd li{
+  font-family: Angsana New;
+  font-size: 13px;
+  color: #708090;
+  line-height: 24px;
+}
+.complete-profile{
+  margin:16px 0px 28px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  line-height: 29px;
+}
+.profilepage-input{
+  margin-bottom: 10px;
+}
+.p-text{
+  font-size: 12px;
+  margin:14px 0px 5px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2B2B2B;
+}
+.profile-box{
+  margin: 3px;
+}
+.tex_fld input {
+  padding: 10px !important;
+  width: 100% !important;
+  border: 1px solid #F1F2F6;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+}
+.tex_fld {
+  width: 100% !important
+}
+.tex_fld select{
+  /* padding: 10px !important; */
+  width: 100%;
+}
+.Slct_fld{
+  padding: 14px 10px 14px 4px;
+  border-radius: 5px;
+  border-color: #C0BABA;
+}
+.auto_fld div div {
+  padding: 5px !important;
+}
+.Verify-no-text h3{
+  margin: 20px 0px 10px;
+  font-weight: bold;
+  font-size: 20px !important;
+  color: #2B2B2B;
+  line-height: 29px;}
+.phoneNo-inputLine{
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid black;
+  padding: 0px 0px 5px 0px ;
+  font-size:18px;
+  width: 130px;
+}
+.error2{
+  color: red;
+  text-align: center;
+}
+.rem-me{
+  font-size: 12px;
+  font-weight: 400;
+  color: #708090;
+}
+.forgot-password {
+  font-size: 12px;
+  font-weight: 400;
+  color: #708090;
+}
+.otp-input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.otp-input-container input {
+  text-align: center;
+  gap: 10px;
+}
+.otp-input-separator {
+  margin: 0 20px;
+}
+.countdown-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 29px;
+  color: #2B2B2B;
+}
+.Simple-Text{
+  margin: 18px 0px 10px;
+  font-size: 20px !important;
+  color: black;
+  font-weight: 500;
+  line-height: 29px;
+}
+.para-text{
+  font-size: 16px;
+    font-family: DM Sans;
+    /* list-style: 24.2px; */
+    color: slategray;
+    font-weight: 400;
+    line-height: 24px;
+}
+.next-flow-btn{
+  margin: 110px 0px 10px 0px !important;
+}
+.next-flow-btn a{
+  text-decoration: none !important;
+  color: white;
+}/* .card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+.register-here {
+  font-size: 20px;
+  font-weight: 500;
+  margin:10px 0px 20px;
+  color: black;
+  line-height: 29px;
+}
+.mobile-number-text {
+  margin-bottom: 15px;
+  font-size: 14px ;
+  font-weight: 400;
+  line-height: 18px;
+}
+.mobile-number-input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.react-tel-input .form-control{
+  /* padding: 10px !important; */
+  width: 100% !important;
+  height: 50px;
+  border: 1px solid #F1F2F6;
+  font-size: 16px;
+  font-weight: 400;
+}
+.password-input {
+  margin-bottom: 15px;
+}
+.react-tel-input div div{
+  /* border: 1px solid #F1F2F6 !important  ; */
+  background-color:#FFFFFF;
+}
+.rem-for{
+  display: flex;
+  justify-content:space-between;
+  color: #888;
+  font-size: small;
+  margin-bottom: 25px;
+}
+.forgot-password a {
+ color: #888;
+  text-decoration: none !important;
+}
+.log-but {
+  width: 100%;
+  padding: 20px;
+  background-color: #1E90FF;
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0px 32px 0px;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* .log-but:hover {
+  background-color: #0056B3;
+} */
+.log-but a{
+  text-decoration: none !important;
+  color: white;
+}
+.new-user-text {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #708090;
+}
+.new-user-text a {
+  color: #1E90FF;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*
+.new-user-text a:hover {
+  text-decoration: underline;
+} */
+.existing-user-text{
+  margin: 10px 0 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #708090;
+}
+.existing-user-text a{
+  color: #007BFF;
+  text-decoration: none !important;
+}
+.Reg-but{
+  margin-top: 40px;
+}
+.forgot-password-section h1{
+  text-align: center;
+  margin-bottom: 30px ;
+  font-size: 30px !important;
+  font-weight: 500;
+  color: black;
+}
+.forgot-password-section p{
+  margin-bottom: 20px;
+}
+.forgot-next{
+  margin-top: 60px;
+}
+.forgot-next a{
+  text-decoration: none;
+  color: white;
+}
+.back-to-login-text{
+  text-align: center;
+}
+.back-to-login-text a{
+  color: #007BFF;
+  text-decoration: none;
+}
+.Change-password-box h2{
+  text-align: center;
+  margin-bottom: 70px;
+  color: black;
+  font-weight: 500;
+}
+.password-guide{
+  margin-left: 18px;
+}
+.strong-pswrd li{
+  font-family: Angsana New;
+  font-size: 13px;
+  color: #708090;
+  line-height: 24px;
+  list-style: disc;
+}
+.complete-profile{
+  margin:16px 0px 28px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  line-height: 29px;
+}
+.profilepage-input{
+  margin-bottom: 10px;
+}
+.p-text{
+  font-size: 12px;
+  margin:14px 0px 5px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2B2B2B;
+}
+.profile-box{
+  margin: 3px;
+}
+.tex_fld input {
+  padding: 10px !important;
+  width: 100% !important;
+  border: 1px solid #F1F2F6;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+}
+.tex_fld {
+  width: 100% !important
+}
+.tex_fld select{
+  /* padding: 10px !important; */
+  width: 100%;
+}
+.Slct_fld{
+  padding: 14px 10px 14px 4px;
+  border-radius: 5px;
+  border-color: #C0BABA;
+}
+.auto_fld div div {
+  padding: 5px !important;
+}
+.Verify-no-text h3{
+  margin: 20px 0px 10px;
+  font-weight: bold;
+  font-size: 20px !important;
+  color: #2B2B2B;
+  line-height: 29px;}
+.phoneNo-inputLine{
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid black;
+  padding: 0px 0px 5px 0px ;
+  font-size:18px;
+  width: 140px;
+}
+.rem-me{
+  font-size: 12px;
+  font-weight: 400;
+  color: #708090;
+}
+.forgot-password {
+  font-size: 12px;
+  font-weight: 400;
+  color: #708090;
+}
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.otp-input-container input {
+  text-align: center;
+  gap: 10px;
+}
+.otp-input-separator {
+  margin: 0 20px;
+}
+.countdown-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 29px;
+  color: #2B2B2B;
+}
+.Simple-Text{
+  margin: 18px 0px 10px;
+  font-size: 20px !important;
+  color: black;
+  font-weight: 500;
+  line-height: 29px;
+}
+.para-text{
+  font-size: 16px;
+    font-family: DM Sans;
+    /* list-style: 24.2px; */
+    color: slategray;
+    font-weight: 400;
+    line-height: 24px;
+}
+.next-flow-btn{
+  margin: 110px 0px 10px 0px !important;
+}
+.next-flow-btn a{
+  text-decoration: none !important;
+  color: white;
+}
+.Verify-b{
+  width: 400px;
+  margin: 240px auto;
+}
+
+.error {
+  color: red;
+}

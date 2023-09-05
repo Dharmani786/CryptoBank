@@ -1,0 +1,53 @@
+.intro_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+   
+  }
+  /* .section_intro {
+    padding-top: 50px;
+  } */
+
+  .Eth_blue{
+    color: #1E90FF;
+  }
+  .Four_btn_wrap {
+    grid-gap: 10px;
+    text-align: center;
+    margin-top: 35px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+  
+    .Four_btn{
+      padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5px rgb(0 0 0 / 30%); */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 40%;
+    }
+  
+    .Four_btn p{
+      margin-left: 8px;
+      color: #708090;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .Layer_pic{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .intro_right_content {
+      width: 500px;
+      height: 580px;
+    }
